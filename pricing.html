@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AJ Broadband</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://js.chargebee.com/v2/chargebee.js" data-cb-site="solutions-int-test" ></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    
+
+<div class="main-container m-2">
+    <div class="header-container" style="background-color: green; height: 100px;text-align: center;">
+        <div class="inner-container" style="padding-top: 15px; color: white">
+            <div><h4>High Speed Internet Plans</h4></div>
+            <div><h5>Forgot Buffering!</h5></div>
+        </div>
+    </div>
+    <div class="plan-container" style="padding-top: 10px;">
+        <div class="row">
+          <div class="col basic-plan text-center">
+            <div class="plan-heading"><h6>Basic Plan</h6></div>
+            <div class="div-padding col-background"><b>Basic Fare - $100</b></div>
+            <div class="div-padding col-background"><b>Limit - 200 GB</b></div>
+            <div class="div-padding col-background"><b>After exhaustion - Speed reduces to 2Mbps</b></div>
+            <div class="subscribe-btn col-background"><button class="btn btn-success"><a class="sub-btn" href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="aj-flat-fee---$100-for-200-gb"  >Subscribe</a></button></div>
+          </div>
+          <div class="col go-to-plan text-center">
+            <div class="plan-heading"><h6>Usage Based Plan</h6></div>
+            <div class="div-padding col-background"><b>Basic Fare - $200</b></div>
+            <div class="div-padding col-background"><b>Limit - 500 GB</b></div>
+            <div class="div-padding col-background"><b>After exhaustion - $1 per GB</b></div>
+            <div class="subscribe-btn col-background"><button class="btn btn-success"><a class="sub-btn" href="javascript:void(0)" data-cb-type="checkout" data-cb-plan-id="aj-flat-fee---$100-for-200-gb" data-cb-addons_id_0="$1-for-1gb" >Subscribe</a></button></div>
+          </div>
+          <div class="col customize-plan text-center">
+            <div class="plan-heading"><h6>Customize Your Plan</h6></div>
+            <div class="div-padding col-background"><b>Please fill out the details to know more about our customized plans</b></div>
+            <div class="div-padding col-background"><label>Name:</label><input type="text" placeholder="Enter your name"></div>
+            <div class="div-padding col-background"><label>Email:</label><input type="text" placeholder="Enter your email"></div>
+            <div class="submit-btn col-background"><button class="btn btn-success" onclick="onSubmit()">Submit</button></div>
+            <script>
+              function onSubmit() {
+                alert("Thank you for contacting us!");
+              }
+              </script>
+          </div>
+        </div>
+      </div>
+</div>
+</body>
+
+</html>
