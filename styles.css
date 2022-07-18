@@ -34,3 +34,7 @@ label {
     padding-top: 4px; 
     padding-bottom: 15px;
 }
+
+a:hover {
+    color: white;
+}
