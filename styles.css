@@ -1,3 +1,18 @@
+.header-container {
+    background-color: green; 
+    height: 100px;
+    text-align: center;
+}
+
+.inner-container {
+    padding-top: 15px; 
+    color: white
+}
+
+.plan-container {
+    padding-top: 10px;
+}
+
 .plan-heading {
     background-color: green;
     color:white;
